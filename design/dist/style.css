@@ -70,3 +70,12 @@ body {
 .stuff-first, .stuff-end {
   width: 50%;
   background-color: #eaeaea; }
+
+.side {
+  color: #fff; }
+  .side i {
+    border: 1px solid #fff;
+    padding: 20px; }
+  .side span {
+    width: 2px;
+    height: 100%; }

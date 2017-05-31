@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-}
+  background-color: grey; }
 
 .max-height {
   height: 500px; }
@@ -50,6 +50,83 @@ body {
 .sesann {
   width: 50%;
   background-color: #ffffff; }
+
+.alessi {
+  width: 20%;
+  background-color: #cecece; }
+
+.timeline {
+  width: 30%;
+  background-color: #ebb240; }
+
+.studio {
+  width: 30%;
+  background-color: #ff9b6d; }
+
+.end {
+  width: 70%;
+  background-color: #eaeaea; }
+
+.stuff-first, .stuff-end {
+  width: 50%;
+  background-color: #eaeaea; }
+
+.side i {
+  border: 1px solid #fff;
+  color: #fff; }
+
+body {
+  margin: 0 auto;
+  background-color: grey; }
+
+.max-height {
+  height: 500px; }
+
+.min-height {
+  height: 250px; }
+
+.elements-gride {
+  margin: 0 auto; }
+
+.logo {
+  width: 70%;
+  background-color: #eaebe3; }
+
+.side {
+  width: 30%;
+  background-color: #7acec3; }
+
+.projects {
+  width: 30%;
+  background-color: #ebb240; }
+
+.fondue {
+  width: 40%;
+  background-color: #ffffff; }
+
+.potter {
+  width: 30%;
+  background-color: #e0e1da; }
+
+.tabano {
+  width: 30%;
+  background-color: #eaeaea; }
+
+.louis {
+  width: 20%;
+  background-color: #6b7c89; }
+
+.middle {
+  width: 50%;
+  background-color: #eaeaea; }
+
+.fiji {
+  width: 30%;
+  background-color: #ffffff; }
+
+.sesann {
+  width: 50%;
+  background-color: pink; }
 
 .alessi {
   width: 20%;
