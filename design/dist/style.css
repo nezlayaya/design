@@ -71,40 +71,23 @@ body {
   width: 50%;
   background-color: #eaeaea; }
 
-.side i {
-  border: 1px solid #fff;
-  padding: 20px; }
+.side {
+  background-image: url("../img/method-draw-image.svg");
+  overflow: hidden; }
+  .side i {
+    border: 3px solid #fff;
+    padding: 30px;
+    font-size: 45px;
+    margin: 50px 0 20px 115px; }
 
 .wrap {
-  width: 400px;
-  height: 400px;
-  background: #ccc;
+  display: flex;
+  color: #fff;
   position: relative;
-  overflow: hidden;
-  margin: auto; }
-
-.first,
-.second {
-  width: 600px;
-  height: 600px;
-  position: absolute;
-  border: 1px solid #999;
-  color: #0a0; }
-
-.first {
-  left: -325px;
-  top: 100px;
-  transform: rotate(45deg); }
-
-.second {
-  left: 100px;
-  top: -325px;
-  transform: rotate(-45deg); }
-
-.first p {
-  transform: rotate(-45deg);
-  margin: -20px 0 0 240px; }
-
-.second p {
-  transform: rotate(45deg);
-  margin: 500px 0 0 0; }
+  height: 500px; }
+  .wrap .first p {
+    padding-left: 65px; }
+  .wrap .second {
+    position: absolute;
+    bottom: 120px;
+    left: 140px; }
