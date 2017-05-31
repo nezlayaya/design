@@ -71,9 +71,18 @@ body {
   width: 50%;
   background-color: #eaeaea; }
 
-.side i {
-  border: 1px solid #fff;
+.side {
   color: #fff; }
+  .side i {
+    border: 1px solid #fff;
+    padding: 20px; }
+
+.first:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  background-color: #fff; }
 
 body {
   margin: 0 auto;
