@@ -2,7 +2,12 @@ body {
   margin: 0 auto;
   background-color: grey;
 }
-
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
 .max-height {
   height: 500px;
 }
@@ -27,7 +32,40 @@ body {
 
 .projects {
   width: 30%;
-  background-color: #ebb240;
+  background: #ebb240 url(img/method-draw-image.svg);
+  text-transform: uppercase;
+  ul{
+    padding-top: 170px;
+    li{
+      a{
+        color: #fff;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 14px;
+        text-transform: uppercase;
+        &:hover{
+          color: #000;
+          &:before{
+            content: "\f178";
+            font-family: FontAwesome;
+            display: inline-block;
+            padding: 0 5px 0 0;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  h2{
+    color: #fefefe;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 5%;
+    bottom: 85px;
+  }
 }
 
 .fondue {
@@ -91,7 +129,7 @@ body {
 }
 
 .side {
-  background-image: url("../img/method-draw-image.svg");
+  background-image: url("img/method-draw-image.svg");
   i {
     border: 3px solid #fff;
     padding: 30px;
@@ -118,4 +156,79 @@ body {
     left: 140px;
   }
 }
-
+.timeline{
+  background: #ebb240 url(img/method-draw-image.svg) 50% 100%;
+  .wrap{
+    display: block;
+    h3{
+      margin: 0;
+      color: #000;
+      font-size: 14px;
+      padding: 40px 0 0 40px;
+      text-transform: uppercase;
+    }
+    ul{
+      margin: 0;
+      li{
+        a{
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 14px;
+          text-transform: uppercase;
+          color: #fff;
+          &:hover{
+            color: #000;
+            &:before{
+              content: "\f178";
+              font-family: FontAwesome;
+              display: inline-block;
+              padding: 0 5px 0 0;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.studio{
+  background-image: url(img/method-draw-image.svg) ;
+  h2{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    right: 15%;
+  }
+}
+.stuff{
+  .wrapper{
+    max-width: 1174px;
+    margin: 0 auto;
+    color: #000;
+    display: flex;
+    .stuff-content{
+      h3{
+        font-weight: 400;
+        line-height: 14px;
+        text-transform: uppercase;
+      }
+      p{
+        font-weight: 300;
+        line-height: 18px;
+        color: #333333;
+        font-size: 14px;
+      }
+      max-width: 300px;
+    }
+    ul.staff-img-item{
+      display: flex;
+      li{
+        margin: 0 15px;
+      }
+    }
+  }
+}
