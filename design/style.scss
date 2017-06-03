@@ -228,7 +228,74 @@ li{
       display: flex;
       li{
         margin: 0 15px;
+        .who-is{
+          margin: 20px 0;
+          p{
+            margin: 0;
+            color: #333333;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 16px;
+            text-transform: uppercase;
+          }
+          span{
+            color: #333333;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            text-transform: uppercase;
+          }
+        }
+        .more{
+          display: flex;
+          justify-content: space-between;
+        }
       }
+      .cv{
+        p{
+          margin: 0;
+        }
+        display: inline-flex;
+        color: #fd5000;
+        font-family: "Roboto Condensed";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-transform: uppercase;
+      }
+      .social{
+        display: inline-flex;
+        a{
+          color: #fd5000;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          text-transform: uppercase;
+          padding: 0 0 0 10px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1130px){
+  .stuff .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .stuff .wrapper .stuff-content{
+    margin: 0 auto;
+  }
+  .stuff .wrapper ul.staff-img-item{
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 920px){
+  .stuff .wrapper ul.staff-img-item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    li{
+      margin: 20px auto;
     }
   }
 }

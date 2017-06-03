@@ -163,23 +163,80 @@ li {
     bottom: 20%;
     right: 15%; }
 
-.stuff .wrap {
+.stuff .wrapper {
   max-width: 1174px;
   margin: 0 auto;
-  color: #000; }
-  .stuff .wrap .stuff-content {
+  color: #000;
+  display: flex; }
+  .stuff .wrapper .stuff-content {
     max-width: 300px; }
-    .stuff .wrap .stuff-content h3 {
+    .stuff .wrapper .stuff-content h3 {
       font-weight: 400;
       line-height: 14px;
       text-transform: uppercase; }
-    .stuff .wrap .stuff-content p {
+    .stuff .wrapper .stuff-content p {
       font-weight: 300;
       line-height: 18px;
       color: #333333;
       font-size: 14px; }
-  .stuff .wrap .staff-img-item {
+  .stuff .wrapper ul.staff-img-item {
     display: flex; }
+    .stuff .wrapper ul.staff-img-item li {
+      margin: 0 15px; }
+      .stuff .wrapper ul.staff-img-item li .who-is {
+        margin: 20px 0; }
+        .stuff .wrapper ul.staff-img-item li .who-is p {
+          margin: 0;
+          color: #333333;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 16px;
+          text-transform: uppercase; }
+        .stuff .wrapper ul.staff-img-item li .who-is span {
+          color: #333333;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16px;
+          text-transform: uppercase; }
+      .stuff .wrapper ul.staff-img-item li .more {
+        display: flex;
+        justify-content: space-between; }
+    .stuff .wrapper ul.staff-img-item .cv {
+      display: inline-flex;
+      color: #fd5000;
+      font-family: "Roboto Condensed";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+      text-transform: uppercase; }
+      .stuff .wrapper ul.staff-img-item .cv p {
+        margin: 0; }
+    .stuff .wrapper ul.staff-img-item .social {
+      display: inline-flex; }
+      .stuff .wrapper ul.staff-img-item .social a {
+        color: #fd5000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-transform: uppercase;
+        padding: 0 0 0 10px; }
+
+@media screen and (max-width: 1130px) {
+  .stuff .wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .stuff .wrapper .stuff-content {
+    margin: 0 auto; }
+  .stuff .wrapper ul.staff-img-item {
+    margin: 0 auto; } }
+
+@media screen and (max-width: 920px) {
+  .stuff .wrapper ul.staff-img-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0; }
+    .stuff .wrapper ul.staff-img-item li {
+      margin: 20px auto; } }
 
 p, span, a {
   font-family: "Roboto Condensed"; }
