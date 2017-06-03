@@ -298,4 +298,20 @@ li{
       margin: 20px auto;
     }
   }
+  .projects h2,
+  .studio h2{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 620px){
+  .projects h2,
+  .studio h2{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 520px){
+  .projects h2,
+  .studio h2{
+    font-size: 20px;
+  }
 }

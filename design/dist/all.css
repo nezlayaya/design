@@ -236,7 +236,20 @@ li {
     flex-wrap: wrap;
     padding: 0; }
     .stuff .wrapper ul.staff-img-item li {
-      margin: 20px auto; } }
+      margin: 20px auto; }
+  .projects h2,
+  .studio h2 {
+    font-size: 40px; } }
+
+@media screen and (max-width: 620px) {
+  .projects h2,
+  .studio h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 520px) {
+  .projects h2,
+  .studio h2 {
+    font-size: 20px; } }
 
 p, span, a {
   font-family: "Roboto Condensed"; }
